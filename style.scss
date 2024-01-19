@@ -1,6 +1,7 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
 $secondary-color: #FA8072;
+$midnight: #191970;
 
 .container-fluid {
     padding-right:0;
@@ -30,8 +31,20 @@ $secondary-color: #FA8072;
  .farbottom {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: darkblue;
+    background-color: $midnight;
     color: white;
+ }
+
+ footer {
+    background-color: $midnight;
+ }
+
+ .freep p, .freep h1 {
+    max-width:500px;
+ }
+
+ .carousel-inner {
+    max-width:500px;
  }
 
  @media (max-width:390px) {

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@floating-ui/dom": "^1.5.4",
     "autoprefixer": "^10.4.17",
     "bootstrap": "^5.3.2",
     "node-sass": "^9.0.0",
@@ -10,7 +11,6 @@
   "description": "This page will demonstrate my knowledge of SASS and Bootstrap.",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --watch style.scss style.css"

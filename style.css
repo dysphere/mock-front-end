@@ -11883,8 +11883,20 @@ textarea.form-control-lg {
 .farbottom {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: darkblue;
+  background-color: #191970;
   color: white;
+}
+
+footer {
+  background-color: #191970;
+}
+
+.freep p, .freep h1, .freep .h1 {
+  max-width: 500px;
+}
+
+.carousel-inner {
+  max-width: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */
