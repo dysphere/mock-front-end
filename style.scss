@@ -1,8 +1,28 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
+$secondary-color: #FA8072;
+
 .container-fluid {
     padding-right:0;
     padding-left:0;
     margin-right:auto;
     margin-left:auto
+ }
+
+ .btn-secondary {
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+ }
+
+ .startb {
+    width: 200px;
+    border-radius: 100px;
+ }
+
+ .toph {
+    max-width: 500px;
+ }
+
+ .toph4 {
+    max-width:500px;
  }
