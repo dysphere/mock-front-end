@@ -11880,4 +11880,11 @@ textarea.form-control-lg {
   max-width: 500px;
 }
 
+.farbottom {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: darkblue;
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
