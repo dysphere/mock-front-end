@@ -44,9 +44,33 @@ $midnight: #191970;
  }
 
  .carousel-inner {
-    max-width:500px;
+    max-width:400px;
+ }
+
+ .travel h1, .travel h4 {
+    max-width: 500px;
+ }
+
+ .mobile-only {
+    display: none;
  }
 
  @media (max-width:390px) {
+    .mobile-only {
+        display: inline;
+    }
 
+    .mobile-color {
+        background-color: #c1acea;
+        color: white;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+
+    .mobile-only-margin h2, .mobile-only-margin h3, .mobile-only-margin button {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
  }

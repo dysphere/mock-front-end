@@ -43,9 +43,10 @@
             <div class="container row d-flex flex-row mx-auto justify-content-center">
             <div class="col-md-auto"><h1>The Freedom to Create The Credit Card You Want</h1></div>
             <div class="col-md-auto">
-            <p>That's why it comes with benefits & rewards chosen by you. Available in multiple designs, your card comes in a style selected by you. You can come back each year, to edit your benefits or update your style. </p>
-            <p>Your OneSync Credit Card stays true to you, year after year. It's the only card you'll ever need. </p>
-            <div class="dropdown">
+            <p class="desktop-only">That's why it comes with benefits & rewards chosen by you. Available in multiple designs, your card comes in a style selected by you. You can come back each year, to edit your benefits or update your style. </p>
+            <p class="desktop-only">Your OneSync Credit Card stays true to you, year after year. It's the only card you'll ever need. </p>
+            <p class="mobile-only">Build your own Credit Card that fits in your day to day lifestyle. First, choose your rewards and  then select your card design.</p>
+            <div class="dropdown desktop-only">
             <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Get Started
             </button>
@@ -56,6 +57,15 @@
               </ul>
             </div>
             </div>
+            <div class="mobile-only d-flex">
+                <select class="form-select mobile-only" aria-label="select city">
+                    <option selected hidden>Select City</option>
+                    <option value="london">London</option>
+                    <option value="paris">Paris</option>
+                    <option value="newyork">New York</option>
+                </select>
+                <button class="mobile-only">Go</button>
+            </div>
             </div>
         </div>
         <div class="container">
@@ -63,9 +73,9 @@
             <div><h1>Fill Eligibility Form</h1>
             <h2>Tell us about yourself, to find out if you're eligible to apply.</h2></div>
         </div>
-        <div class="container">
-            <div>
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="container row mx-auto d-flex justify-content-center flex-row-reverse">
+            <div class="col-md-auto">
+                <div id="travelSlides" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="berlin.jpg" class="d-block w-100" alt="...">
@@ -79,14 +89,47 @@
                 </div>
               </div>
             </div>
-            <div>
+            <div class="travel col-md-auto">
                 <h1>Choose Your Rewards</h1>
                 <h4>Match your card to your lifestyle. We've got benefits from across brands & categories for you to choose from. Each benefit has an attached fee. Just add the ones you like to your card.</h4>
             </div>
             </div>
         <div class="container">
-            <div></div>
-            <div></div>
+            <div>
+                <div id="land" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#land" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#land" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#land" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="snow.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="stream.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="winter-painting.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="winterland.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div>
+                <h2>Select Your Style</h2>
+                <h3>Match your card to your personality. Whether you like a minimal look or something that catches everyone's eyes, we've got a style for you. You can update your style every year, for a small fee</h3>
+            </div>
+        </div>
+        <div class="container-fluid mobile-only mx-auto">
+            <div class="mx-auto mobile-only-margin mobile-color">
+                <h2>Why the OneSync Card is the Best Choice for you?</h2>
+                <h3>You can create a Credit Card that fits all your needs on your own. Gone are the days when you had to choose from premade credit cards with features that you did not need.</h3>
+                <h3>With the OneSync card you can save on all the things you love to do with a unique personal touch</h3>
+                <button type="button" class="btn">Get Started ></button>
+            </div>
         </div>
         <div class="container">
             <div class="text-center">
