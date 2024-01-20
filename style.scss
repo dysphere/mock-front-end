@@ -2,6 +2,7 @@
 
 $secondary-color: #FA8072;
 $midnight: #191970;
+$lavender: #734f96;
 
 .container-fluid {
     padding-right:0;
@@ -26,6 +27,11 @@ $midnight: #191970;
 
  .toph4 {
     max-width:500px;
+ }
+
+ input {
+   margin-top: 10px;
+   margin-bottom: 10px;
  }
 
  .farbottom {
@@ -59,13 +65,34 @@ $midnight: #191970;
     display: none;
  }
 
+ .part1 {
+   padding-top: 100px;
+   padding-bottom: 75px;
+ }
+
+ .part2 {
+   background-color: $lavender;
+   color: white;
+   padding-top: 100px;
+   padding-bottom: 100px;
+ }
+
+ .part3 {
+   padding-top: 50px;
+   padding-bottom: 50px;
+ }
+
+ .part3left {
+   background-color: #00bfff;
+ }
+
  @media (max-width:390px) {
     .mobile-only {
         display: inline;
     }
 
     .mobile-color {
-        background-color: #c1acea;
+        background-color: $lavender;
         color: white;
     }
 
