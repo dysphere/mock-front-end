@@ -30,8 +30,8 @@ $lavender: #734f96;
  }
 
  input {
-   margin-top: 10px;
-   margin-bottom: 10px;
+   margin-top: 20px;
+   margin-bottom: 20px;
  }
 
  .farbottom {
@@ -78,12 +78,32 @@ $lavender: #734f96;
  }
 
  .part3 {
-   padding-top: 50px;
-   padding-bottom: 50px;
  }
 
  .part3left {
    background-color: #00bfff;
+   padding-left: 20%;
+   padding-right: 20%;
+   height: 300px;
+ }
+
+ .part4right {
+   background-color: white;
+ }
+
+ .part3left, .part3right {
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+ }
+
+ .part4 {
+   background-color: #ffece4;
+ }
+
+ .part5 {
+   background-color: #D6B4FC;
  }
 
  @media (max-width:390px) {
