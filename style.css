@@ -11862,10 +11862,19 @@ textarea.form-control-lg {
   margin-left: auto;
 }
 
+.nav-bg {
+  background-color: white;
+}
+
 .navbar-brand {
   background-color: black;
   color: white;
   margin-left: 50px;
+}
+
+.nav-start {
+  background-color: #FA8072;
+  color: white;
 }
 
 .navbar-collapse {
@@ -12014,6 +12023,22 @@ footer {
   border: 2px black solid;
 }
 
+.part7 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  color: #FA8072;
+  border: none;
+}
+
+.accordion-button {
+  color: #FA8072;
+  border: none;
+}
+
 @media (max-width: 390px) {
   .mobile-only {
     display: inline;
@@ -12024,6 +12049,28 @@ footer {
   }
   .desktop-only {
     display: none;
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 50px;
+    height: 25px;
+    opacity: 100%;
+    top: 75px;
+    right: 10px;
+    position: relative;
+    margin-right: 10px;
+  }
+  .traveltop {
+    padding-bottom: 75px;
+  }
+  .travel {
+    background-color: white;
+  }
+  .part1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .part5 {
+    padding-bottom: 10px;
   }
   .mobile-only-margin h2, .mobile-only-margin .h2, .mobile-only-margin h3, .mobile-only-margin .h3, .mobile-only-margin button {
     margin-left: 20px;
