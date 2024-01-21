@@ -10,7 +10,7 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">AFC Inc.</a>
+          <button class="navbar-brand">AFC Inc.</button>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -93,7 +93,7 @@
                 </div>
               </div>
             </div>
-            <div class="travel col-md-auto">
+            <div class="travel col-md-auto d-flex flex-column justify-content-center">
                 <h1>Choose Your Rewards</h1>
                 <h4>Match your card to your lifestyle. We've got benefits from across brands & categories for you to choose from. Each benefit has an attached fee. Just add the ones you like to your card.</h4>
             </div>
@@ -101,13 +101,21 @@
         <div class="container-fluid text-center row mx-auto justify-content-center part5">
             <div class="col-md-auto">
                 <div id="land" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators carouselButtons">
-                      <button type="button" data-bs-target="#land" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#land" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#land" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                      <button type="button" data-bs-target="#land" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <div class="carousel-indicators carouselButtons d-flex justify-content-center">
+                      <div>
+                      <button type="button" data-bs-target="#land" data-bs-slide-to="0" class="active img1" aria-current="true" aria-label="Slide 1"></button>
+                      </div>
+                      <div>
+                      <button type="button" class="img2" data-bs-target="#land" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      </div>
+                      <div>
+                      <button type="button" class="img3" data-bs-target="#land" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div>
+                      <button type="button" class="img4" data-bs-target="#land" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      </div>
                     </div>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner row">
                       <div class="carousel-item active">
                         <img src="snow.jpg" class="d-block w-100" alt="...">
                       </div>
